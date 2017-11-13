@@ -19,6 +19,7 @@ const ld eps = 1e-9, pi = acos (-1);
 int n, k, m;
 void input ()
 {
+	cin >> n;
 
 }
 void solve ()
