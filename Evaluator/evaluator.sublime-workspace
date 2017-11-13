@@ -1,0 +1,663 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"test",
+				"test_name"
+			],
+			[
+				"get",
+				"get_test_name"
+			],
+			[
+				"top",
+				"topo_order"
+			],
+			[
+				"id",
+				"in_deg"
+			],
+			[
+				"rand",
+				"rand_max"
+			],
+			[
+				"clock",
+				"clockwise"
+			],
+			[
+				"ad",
+				"add_vert"
+			],
+			[
+				"max",
+				"max_match"
+			],
+			[
+				"d_in",
+				"d_in_2"
+			],
+			[
+				"topo",
+				"topo_order"
+			],
+			[
+				"vector",
+				"vector\tstd::vector"
+			],
+			[
+				"h",
+				"_hash"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/My Build/C++11.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/User/My Build/C++11.sublime-build",
+					""
+				],
+				[
+					"Packages/User/My Build/C++11.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/User/My Build/C++11.sublime-build",
+				"Run"
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 254.0,
+		"last_filter": "projec",
+		"selected_items":
+		[
+			[
+				"projec",
+				"Project: Close"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"sing",
+				"Single screen"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"termi",
+				"Preferences: Terminal Key Bindings – Default"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings"
+			],
+			[
+				"test",
+				"Snippet: Code tester"
+			],
+			[
+				"ui:theme",
+				"UI: Select Theme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"all",
+				"All in one"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			],
+			[
+				"edit",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"codetest",
+				"Snippet: Code tester"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"bui",
+				"Build System: C++ 11"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"ecc",
+				"EasyClangComplete: Settings"
+			],
+			[
+				"lint",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"easy",
+				"EasyClangComplete: Settings"
+			],
+			[
+				"linter set",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"linter tog",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"togglelint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"lintsetting",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"setting",
+				"Preferences: Settings"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"linter sett",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"lin",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"lin set",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"package remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"sublimelinter set",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"sublimelinter",
+				"SublimeLinter: Next Error"
+			],
+			[
+				"ui",
+				"UI: Select Theme"
+			],
+			[
+				"package",
+				"Install Package Control"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"snippetmk",
+				"SnippetMaker: Edit Snippet"
+			],
+			[
+				"build",
+				"Build System: C++ 11"
+			],
+			[
+				"c++ tem",
+				"Snippet: C++ Template"
+			],
+			[
+				"pref",
+				"Preferences: Settings"
+			],
+			[
+				"c++ temp",
+				"Snippet: C++ Template"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"snippetma",
+				"SnippetMaker: Make Snippet"
+			],
+			[
+				"remove pag",
+				"Package Control: Remove Package"
+			],
+			[
+				"pre",
+				"Preferences: Settings"
+			],
+			[
+				"c++",
+				"C++ Template"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"broe",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"c++11",
+				"Build System: C++ 11"
+			],
+			[
+				"C",
+				"C++ Template"
+			]
+		],
+		"width": 551.0
+	},
+	"console":
+	{
+		"height": 168.0,
+		"history":
+		[
+			"view.run_command ('openexe')",
+			"sublime.log_commands (False)",
+			"sublime.log_commands (True)",
+			"view.run_command ('openio')",
+			"openio"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": true,
+		"side_bar_visible": false,
+		"status_bar_visible": true
+	},
+	"expanded_folders":
+	[
+		"/home/annie/Ubuntu Workspace/Evaluator"
+	],
+	"file_history":
+	[
+		"/home/annie/Ubuntu Workspace/Evaluator/eval.h",
+		"/home/annie/Ubuntu Workspace/Evaluator/env.cpp",
+		"/home/annie/Ubuntu Workspace/Evaluator/eval.cpp",
+		"/home/annie/Ubuntu Workspace/Evaluator/xyz.zyx",
+		"/home/annie/.config/sublime-text-3/Packages/User/auto.py",
+		"/home/annie/Ubuntu Workspace/Evaluator/compile.sh",
+		"/home/annie/Ubuntu Workspace/Nov 3/B/compile_cpp.sh",
+		"/home/annie/Ubuntu Workspace/Evaluator/eval",
+		"/home/annie/Ubuntu Workspace/Nov 3/B/grader.cpp",
+		"/home/annie/Ubuntu Workspace/Nov 3/B/sample_grader.cpp",
+		"/home/annie/Ubuntu Workspace/Evaluator/windows.cpp",
+		"/home/annie/Ubuntu Workspace/Nov 3/B/compare.cpp",
+		"/home/annie/Ubuntu Workspace/Nov 3/C/c.inp",
+		"/home/annie/Ubuntu Workspace/Nov 3/themis_format/C/test23/C.inp",
+		"/home/annie/Ubuntu Workspace/Nov 3/C/c.cpp",
+		"/home/annie/Ubuntu Workspace/Nov 3/C/c.out",
+		"/home/annie/Ubuntu Workspace/Nov 3/themis_format/C/test23/C.out",
+		"/home/annie/Downloads/cms/requirements.txt",
+		"/home/annie/Downloads/cms/setup.py",
+		"/home/annie/Downloads/cms/cms/grading/tasktypes/OutputOnly.py",
+		"/home/annie/Downloads/cms/README.md",
+		"/home/annie/Ubuntu Workspace/Nov 3/themis_format/C/test04/C.inp",
+		"/home/annie/Ubuntu Workspace/Nov 3/themis_format/C/test04/C.out",
+		"/home/annie/Ubuntu Workspace/Nov 3/C/out/03.out",
+		"/home/annie/Ubuntu Workspace/Nov 3/C/in/03.in",
+		"/home/annie/Ubuntu Workspace/Nov 3/C/in/02.in",
+		"/home/annie/Ubuntu Workspace/Nov 3/C/in/01.in",
+		"/home/annie/Ubuntu Workspace/Nov 3/C/in/30.in",
+		"/home/annie/Ubuntu Workspace/Nov 3/C/statements.pdf",
+		"/home/annie/Ubuntu Workspace/Nov 3/a.out",
+		"/home/annie/Ubuntu Workspace/Nov 3/a.cpp",
+		"/home/annie/Ubuntu Workspace/Nov 3/B/a.out",
+		"/home/annie/Ubuntu Workspace/Nov 3/a.inp",
+		"/home/annie/Ubuntu Workspace/Nov 3/themis_format/A/test075/A.out",
+		"/home/annie/Ubuntu Workspace/Nov 3/themis_format/A/test075/A.inp",
+		"/home/annie/.config/sublime-text-3/Packages/Terminal/Default (Linux).sublime-keymap",
+		"/home/annie/Ubuntu Workspace/Nov 3/themis_format/A/test016/A.out",
+		"/home/annie/Ubuntu Workspace/Nov 3/themis_format/A/test016/A.inp",
+		"/home/annie/Ubuntu Workspace/Nov 3/themis_format/A/test023/A.out",
+		"/home/annie/Ubuntu Workspace/Nov 3/themis_format/A/test023/A.inp",
+		"/home/annie/Ubuntu Workspace/Nov 3/tester.cpp",
+		"/home/annie/Ubuntu Workspace/untitled",
+		"/home/annie/Ubuntu Workspace/Nov 2/edges.out",
+		"/home/annie/Ubuntu Workspace/Nov 2/edges.inp",
+		"/home/annie/Ubuntu Workspace/Nov 2/edges.cpp",
+		"/home/annie/Ubuntu Workspace/Nov 3/A/testcases.json",
+		"/home/annie/Ubuntu Workspace/Oct 31/option.cpp",
+		"/home/annie/Ubuntu Workspace/Oct 31/sctab.out",
+		"/home/annie/Ubuntu Workspace/Oct 31/sctab.inp",
+		"/home/annie/Ubuntu Workspace/Oct 31/sctab.cpp",
+		"/tmp/mozilla_annie0/1[Tran Cong Viet An][sctab].cpp-1.log",
+		"/tmp/mozilla_annie0/1[Tran Cong Viet An][sctab].cpp.log",
+		"/home/annie/Ubuntu Workspace/Oct 31/queue.out",
+		"/home/annie/Ubuntu Workspace/Oct 31/queue.inp",
+		"/home/annie/Ubuntu Workspace/Oct 31/queue.cpp",
+		"/home/annie/.config/plank/dock1/launchers/userapp-Firefox-9MC88Y.dockitem",
+		"/usr/share/plank/themes/Default/dock.theme",
+		"/home/annie/Ubuntu Workspace/Oct 31/convexhull.ans",
+		"/home/annie/Ubuntu Workspace/Oct 31/convexhull.out",
+		"/home/annie/Ubuntu Workspace/Oct 31/convexhull.inp",
+		"/home/annie/Ubuntu Workspace/Oct 31/convexhull.check",
+		"/home/annie/Ubuntu Workspace/Oct 31/convexhull.cpp",
+		"/home/annie/Ubuntu Workspace/Oct 31/convexhull_tester.cpp",
+		"/home/annie/Ubuntu Workspace/Oct 31/convexhull_trau.cpp",
+		"/home/annie/.config/sublime-text-3/Packages/User/My Build/C++11.sublime-build",
+		"/home/annie/.config/sublime-text-3/Packages/User/Snippets/tester.cpp.sublime-snippet",
+		"/home/annie/Ubuntu Workspace/Oct 31/convexhull_trau",
+		"/tmp/mozilla_annie0/ConvexHull.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Github/CP-code/Computation Geometry/convex_hull.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 9/Sep 26/point_in_convex_hull.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 9/Sep 23/convexhull.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 5/May10/convexhull.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/convex",
+		"/home/annie/Ubuntu Workspace/Oct 31/convex_hull.cpp",
+		"/home/annie/Workspace/poly.out",
+		"/home/annie/Workspace/giaithua.out",
+		"/home/annie/Workspace/giaithua.inp",
+		"/home/annie/Workspace/poly.cpp",
+		"/home/annie/Workspace/poly.inp",
+		"/home/annie/Workspace/giaithua.cpp",
+		"/home/annie/Workspace/xyz.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 30/vosnum.inp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 30/vosnum.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 30/vosnum.out",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 30/next_topo_order.out",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 30/next_topo_order.inp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 30/next_topo_order.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 30/a.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 30/max_lexic_rotation.out",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 30/max_lexic_rotation.inp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 30/max_lexic_rotation.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 30/lexic_path.out",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 30/lexic_path.inp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 30/lexic_path.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 7/Jul 2/rook1.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 7/Jul 2/rook1.out",
+		"/home/annie/.config/sublime-text-3/Packages/User/Snippets/freopen.sublime-snippet",
+		"/home/annie/.config/sublime-text-3/Packages/User/My Build/next_topo_order.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 29/tester_cheer.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 29/cheer.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 29/cheer.inp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 29/cheer.out",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 29/kinv.out",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 29/kinv.inp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 29/kinv.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 29/test.cpp",
+		"/home/annie/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/annie/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/code.cpp",
+		"/home/annie/.config/sublime-text-3/Packages/User/test.cpp",
+		"/home/annie/.config/sublime-text-3/Packages/User/killexe.py",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 28/dhserv.cpp",
+		"/home/annie/.config/sublime-text-3/Packages/User/openexe.py",
+		"/home/annie/.config/sublime-text-3/Packages/User/openio.py",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 28/dhserv",
+		"/home/annie/.config/sublime-text-3/Packages/User/Snippets/c++template.sublime-snippet",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 28/v8org.out",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 28/v8org.inp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 28/v8org.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 28/palinx.out",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 28/palinx.inp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 28/palinx.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 28/cielab.inp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 28/cielab.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 28/cielab.out",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 28/palin_part.cpp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 28/palin_part.inp",
+		"/media/annie/Workspace/Data/Code/c++/Schoolwork/2017 - 10/Oct 28/palin_part.out"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 130.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"string",
+			"std::",
+			"mat",
+			"i",
+			"j",
+			",",
+			"e",
+			"i",
+			"e",
+			"i",
+			")\n",
+			"i",
+			"maxx",
+			";\n",
+			">>",
+			" >>",
+			">> ",
+			";\n",
+			"m1",
+			"a",
+			"move",
+			"a[",
+			"i",
+			"}",
+			"area",
+			"vec (a, b) ^ vec (a, c)",
+			"();\n",
+			"rand_max",
+			"RAND_MAX",
+			"convex_hull",
+			"p",
+			"A",
+			"x",
+			"aa",
+			"b",
+			"a",
+			"x",
+			"point",
+			"}",
+			"i",
+			"check",
+			"n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 115.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/My Build/C++11.sublime-build",
+	"project": "evaluator.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
