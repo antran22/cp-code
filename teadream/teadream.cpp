@@ -49,9 +49,9 @@ ll res, resk;
 void solve ()
 {
 	vll h = div_list (n - d);
-	for (int i : h)
+	for (ll i : h)
 	{
-		if (i < d) continue;
+		if (i <= d) continue;
 		k = i;
 		ll m = count_m (n);
 		// cout << k << ' ' << m << '\n';
@@ -69,11 +69,11 @@ int main()
 	cin.tie (NULL);
 	cout.tie (NULL);
 	freopen ("teadream.inp", "r", stdin);
-	freopen ("teadream.out", "w", stdout);
+	// freopen ("teadream.out", "w", stdout);
 	input ();
 	solve ();
 	#ifdef tcva
 	clock_t entime = clock ();
-	cerr << "\nExecution time: " << double (entime - sttime) / CLOCKS_PER_SEC << "s";
+	// cerr << "\nExecution time: " << double (entime - sttime) / CLOCKS_PER_SEC << "s";
 	#endif
 }

@@ -16,80 +16,47 @@ typedef vector<int> vi;
 const int inf = 1e9, maxn = 1e6 + 1;
 const ll inff = 1e18;
 const ld eps = 1e-9, pi = acos (-1);
-int n, k, m;
-const int prime_max = 1e7;
-vi prime;
-bool composite[prime_max + 1];
-struct seg
+int ceildiv (int a, int b)
 {
-	int l, r;
-	seg () {}
-	seg (int ll, int rr)
-	{
-		l = ll; r = rr;
-	}
-};
-seg i[2][maxn];
-seg *h = i[0], *g = i[1];
-int id[maxn];
-ll res[maxn];
-order o[maxn];
-int w1, w2, h1, h2;
+	return (a + b - 1) / b;
+}
+int n, k, m;
+int w1, w2, h1, h2, res = 0;
 void input ()
 {
-	cin >> n;
-	for (int i = 1; i <= n; ++i)
-	{
-		cin >> w1 >> w2 >> h1 >> h2;
-		w[i] = seg (w1, w2);
-		h[i] = seg (h1, h2);
-		id[i] = i;
-		res[i] = 1;
-	}
+	cin >> w1 >> w2 >> h1 >> h2;
 }
-void sieve ()
+bool check (int k)
 {
-	for (int i = 2; i <= prime_max; ++i)
-	{
-		if (composite[i]) continue;
-		for (ll k = (ll)(i) * i; k <= prime_max; k += i)
-			composite[k] = 1;
-	}
-	for (int i = 2; i <= prime_max; ++i)
-		if (!composite[i]) prime.pb (i);
-}
-int get_prime_pow (int pr, int id)
-{
-	ll x = 1;
-	sort (id + 1, id + n + 1, [] (int i, int j)
-	{
-		return
-	})
-	for (int i = 1; i <= n; ++i)
-	{
-		while (x * pr <= h[i]) x *= pr;
-		if (x >= v) return x;
-	}
+	int x = ceildiv (w1, k), y = w2 / k;
+	int z = ceildiv (h1, k), t = h2 / k;
+	return (x <= y and z <= t);
 }
 void solve ()
 {
-	sieve ();
-
+	res = 0;
+	int s = sqrt (max (w2, h2));
+	s = min (s, w2);
+	s = min (s, h2);
+	for (int i = 1; i <= s; ++i)
+	{
+		if (check (i)) res = max (i, res);
+		if (check (w2 / i)) res = max (w2 / i, res);
+		if (check (h2 / i)) res = max (h2 / i, res);
+	}
+	cout << res << '\n';
 }
 int main()
 {
-	#ifdef tcva
-	clock_t sttime = clock ();
-	#endif
 	ios_base::sync_with_stdio(false);
 	cin.tie (NULL);
 	cout.tie (NULL);
 	freopen ("teacareer.inp", "r", stdin);
 	freopen ("teacareer.out", "w", stdout);
-	input ();
-	solve ();
-	#ifdef tcva
-	clock_t entime = clock ();
-	cerr << "\nExecution time: " << fixed << double (entime - sttime) / CLOCKS_PER_SEC << "s";
-	#endif
+	int t;
+	for (cin >> t; t; --t)
+	{
+		input ();
+		solve ();
+	}
 }
