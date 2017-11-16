@@ -1,0 +1,1 @@
+``f[i][j] = số bước min để xóa f[i]
