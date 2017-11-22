@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><script>
+    function wload(link) {
+        var l = Math.max((window.screen.width - 800)/2, 0);
+        var t = Math.max((window.screen.height - 600)/2 - 50, 0);
+        var myWindow = window.open(link, "Log", 'title=0, toolbar=0, location=0, directories=0, status=0, menubar=0, scrollbars=1, resizable=0, copyhistory=0, width=800, height=600, top='+t+', left='+l);
+    }
+</script>
+ 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Hệ thống nộp bài trực tuyến</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="H%E1%BB%87%20th%E1%BB%91ng%20n%E1%BB%99p%20b%C3%A0i%20tr%E1%BB%B1c%20tuy%E1%BA%BFn_files/bootstrap.css" rel="stylesheet">
+    <link href="H%E1%BB%87%20th%E1%BB%91ng%20n%E1%BB%99p%20b%C3%A0i%20tr%E1%BB%B1c%20tuy%E1%BA%BFn_files/jumbotron.css" rel="stylesheet">
+	<script src="H%E1%BB%87%20th%E1%BB%91ng%20n%E1%BB%99p%20b%C3%A0i%20tr%E1%BB%B1c%20tuy%E1%BA%BFn_files/jquery-latest.js"></script>
+	<script>
+		var refreshId = setInterval(function(){
+			$('#logs').load('logs.php');
+			$('#timer').load('timer.php');
+		}, 1000);
+	</script>
+</head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">· Hệ thống nộp bài trực tuyến</a>
+		  <a class="navbar-brand" href="http://10.1.27.188/ranking.php">· Bảng điểm</a>
+        </div>
+		
+		<div class="navbar-collapse collapse">
+			<div class="navbar-form navbar-right"> 
+				<a class="btn btn-success" href="http://10.1.27.188/repass.php" title="Đổi mật khẩu">Thí sinh: Trần Công Việt An</a> 
+				<a href="http://10.1.27.188/logout.php">(Thoát)</a>
+		</div>
+		</div>  
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>VOI Training</h1>
+        <p><a href="http://10.1.27.188/tools/">Các IDE và bộ dịch.</a></p>
+          <form class="navbar-form navbar-right" action="upload.php" method="POST" enctype="multipart/form-data">
+ 			 Nộp bài: 
+			<div class="form-group">
+				<input name="file" id="file" accept=".pas,.cpp" class="form-control" type="file">
+            </div>
+            <button type="submit" class="btn btn-success">Nộp</button>
+          </form>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+	  
+        <div class="col-md-4">
+          <h2>Đề:</h2>
+<h4>Bài: <a href="http://10.1.27.188/contests/problems/Debai.pdf">Debai.pdf</a></h4>		  
+        <p><a class="btn btn-default" href="http://10.1.27.188/contests/problems/Debai.pdf" role="button">Tải về »</a></p>  
+        </div>
+		
+        <div class="col-md-4">
+          <h2>Test mẫu:</h2>
+<h4>Bài: DCPP</h4><p><a href="http://10.1.27.188/contests/tests/DCPP/$DCPP01">$DCPP01</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP02">$DCPP02</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP03">$DCPP03</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP04">$DCPP04</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP05">$DCPP05</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP06">$DCPP06</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP07">$DCPP07</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP08">$DCPP08</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP09">$DCPP09</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP10">$DCPP10</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP11">$DCPP11</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP12">$DCPP12</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP13">$DCPP13</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP14">$DCPP14</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP15">$DCPP15</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP16">$DCPP16</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP17">$DCPP17</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP18">$DCPP18</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP19">$DCPP19</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP20">$DCPP20</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP21">$DCPP21</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP22">$DCPP22</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP23">$DCPP23</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP24">$DCPP24</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP25">$DCPP25</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP26">$DCPP26</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP27">$DCPP27</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP28">$DCPP28</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP29">$DCPP29</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP30">$DCPP30</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP31">$DCPP31</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP32">$DCPP32</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP33">$DCPP33</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP34">$DCPP34</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP35">$DCPP35</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP36">$DCPP36</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP37">$DCPP37</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP38">$DCPP38</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP39">$DCPP39</a> | <a href="http://10.1.27.188/contests/tests/DCPP/$DCPP40">$DCPP40</a> | </p><h4>Bài: OPTBST</h4><p><a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST01">$OPTBST01</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST02">$OPTBST02</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST03">$OPTBST03</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST04">$OPTBST04</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST05">$OPTBST05</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST06">$OPTBST06</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST07">$OPTBST07</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST08">$OPTBST08</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST09">$OPTBST09</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST10">$OPTBST10</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST11">$OPTBST11</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST12">$OPTBST12</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST13">$OPTBST13</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST14">$OPTBST14</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST15">$OPTBST15</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST16">$OPTBST16</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST17">$OPTBST17</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST18">$OPTBST18</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST19">$OPTBST19</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST20">$OPTBST20</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST21">$OPTBST21</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST22">$OPTBST22</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST23">$OPTBST23</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST24">$OPTBST24</a> | <a href="http://10.1.27.188/contests/tests/OPTBST/$OPTBST25">$OPTBST25</a> | </p><h4>Bài: REMAINDER</h4><p><a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER01">$REMAINDER01</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER02">$REMAINDER02</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER03">$REMAINDER03</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER04">$REMAINDER04</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER05">$REMAINDER05</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER06">$REMAINDER06</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER07">$REMAINDER07</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER08">$REMAINDER08</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER09">$REMAINDER09</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER10">$REMAINDER10</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER11">$REMAINDER11</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER12">$REMAINDER12</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER13">$REMAINDER13</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER14">$REMAINDER14</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER15">$REMAINDER15</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER16">$REMAINDER16</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER17">$REMAINDER17</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER18">$REMAINDER18</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER19">$REMAINDER19</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER20">$REMAINDER20</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER21">$REMAINDER21</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER22">$REMAINDER22</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER23">$REMAINDER23</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER24">$REMAINDER24</a> | <a href="http://10.1.27.188/contests/tests/REMAINDER/$REMAINDER25">$REMAINDER25</a> | </p>		  
+          <p><a class="btn btn-default" href="http://10.1.27.188/contests/tests/Full.contest" role="button">Tải về »</a></p>
+       </div>
+	   
+        <div class="col-md-4">
+          <h2>Nhật ký nộp bài:</h2>
+		  <div id="logs">
+
+<script>
+    function wload(link) {
+        var l = Math.max((window.screen.width - 800)/2, 0);
+        var t = Math.max((window.screen.height - 600)/2 - 50, 0);
+        var myWindow = window.open(link, "Log", 'title=0, toolbar=0, location=0, directories=0, status=0, menubar=0, scrollbars=1, resizable=0, copyhistory=0, width=800, height=600, top='+t+', left='+l);
+    }
+</script><p>» <a style="cursor:pointer" onclick="wload('./submit/Logs/0%5BTran%20Cong%20Viet%20An%5D%5Bremainder%5D.cpp.log')">[remainder].cpp.log</a> (‣remainder: 60.00
+)</p>
+</div>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>Keep typing, keep loving</p>
+      </footer>
+    </div> <!-- /container -->
+
+    <script src="H%E1%BB%87%20th%E1%BB%91ng%20n%E1%BB%99p%20b%C3%A0i%20tr%E1%BB%B1c%20tuy%E1%BA%BFn_files/bootstrap.js"></script>
+  
+
+</body></html>
