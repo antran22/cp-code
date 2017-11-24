@@ -26,7 +26,7 @@ struct node
 	int size;
 	pnode p, l, r;
 };
-pnode root, root2, nil;
+pnode xyzroot, xyzroot2, nil;
 string s;
 void init (pnode &root, int n)
 {
@@ -50,7 +50,7 @@ pnode find (pnode t, int i)
 }
 void update (pnode t)
 {
-	t -> size = t -> l -> size + t -> r -> size + 1;
+	t -> size = (t -> l -> size) + (t -> r -> size) + 1;
 }
 void link (pnode p, pnode c, bool l)
 {
@@ -66,13 +66,15 @@ void uptree (pnode x)
 	link (y, t, side);
 	link (x, y, !side);
 	link (z, x, side2);
+	update (x);
+	update (y);
 }
 void tree_print (pnode x, int i)
 {
 	if (x == nil) return;
 	tree_print (x -> l, i + 1);
 	for (int j = 1; j <= i; ++j) cout << ' ';
-	cout << x -> val << '\n';
+	cout << x -> size << '\n';
 	tree_print (x -> r, i + 1);
 }
 void print (pnode root)
@@ -80,11 +82,12 @@ void print (pnode root)
 	tree_print (root, 0);
 	cout << '\n';
 }
+string out;
 void strprint (pnode x)
 {
 	if (x == nil) return;
 	strprint (x -> l);
-	cout << x -> val;
+	out.pb (x -> val);
 	strprint (x -> r);
 }
 void splay (pnode x)
@@ -116,6 +119,7 @@ void split (pnode t, int i, pnode &a, pnode &b)
 	a -> r = nil;
 	b -> p = nil;
 	update (a);
+	update (b);
 }
 void join (pnode &a, pnode &b)
 {
@@ -126,17 +130,17 @@ void join (pnode &a, pnode &b)
 }
 void rev_string (int l, int r)
 {
-	pnode a1, b1, c1, a2, b2, c2;
-	split (root, r + 1, a1, c1);
-	split (root2, n - l, a2, c2);
+	pnode a1 = nil, b1 = nil, c1 = nil, a2 = nil, b2 = nil, c2 = nil;
+	split (xyzroot, r + 1, a1, c1);
+	split (xyzroot2, n - l, a2, c2);
 	split (a1, l, a1, b1);
 	split (a2, n - 1 - r, a2, b2);
 	join (a1, b2);
 	join (a1, c1);
 	join (a2, b1);
 	join (a2, c2);
-	root = a1;
-	root2 = a2;
+	xyzroot = a1;
+	xyzroot2 = a2;
 }
 void input ()
 {
@@ -144,24 +148,26 @@ void input ()
 	*nil = node {0, 0, nil, nil, nil};
 	cin >> s;
 	n = s.length ();
-	s.ins (n, " ");
-	s.ins (0, " ");
-	init (root, n);
+	s.ins (n, "_");
+	s.ins (0, "_");
+	init (xyzroot, n);
 	reverse (whole (s));
-	init (root2, n);
+	init (xyzroot2, n);
 	n += 2;
 }
 void solve ()
 {
-	// cin >> m;
-	// int l, r;
-	// for (int i = 1; i <= 1; ++i)
-	// {
-	// 	cin >> l >> r;
-	rev_string (3, 5);
-	// rev_string (3, 5);
-	print (root2);
-	// }
+	cin >> m;
+	int l, r;
+	for (int i = 1; i <= m; ++i)
+	{
+		cin >> l >> r;
+		rev_string (l, r);
+	}
+	strprint (xyzroot);
+	out.erase (0, 1);
+	out.erase (out.size () - 1, 1);
+	cout << out;
 }
 int main()
 {
