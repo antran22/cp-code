@@ -1,0 +1,27 @@
+CCCC_Module@anonymous@@
+CCCC_Module@char@builtin@
+CCCC_ModExt@char@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@double@builtin@
+CCCC_ModExt@double@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@float@builtin@
+CCCC_ModExt@float@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@int@builtin@
+CCCC_ModExt@int@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@long@builtin@
+CCCC_ModExt@long@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@void@builtin@
+CCCC_ModExt@void@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Member@anonymous@FI@@(int &)@
+CCCC_MemExt@anonymous@FI@@(int &)@blade.cpp@21@definition@F????@LOC:10 COM:0 MVG:6@?@d@
+CCCC_Member@anonymous@FI@@(ll &)@
+CCCC_MemExt@anonymous@FI@@(ll &)@blade.cpp@31@definition@F????@LOC:10 COM:0 MVG:6@?@d@
+CCCC_Member@anonymous@cnt@@(int)@
+CCCC_MemExt@anonymous@cnt@@(int)@blade.cpp@48@definition@F????@LOC:6 COM:0 MVG:2@?@d@
+CCCC_Member@anonymous@input@@()@
+CCCC_MemExt@anonymous@input@@()@blade.cpp@41@definition@F????@LOC:6 COM:1 MVG:1@?@d@
+CCCC_Member@anonymous@main@@()@
+CCCC_MemExt@anonymous@main@@()@blade.cpp@66@definition@F????@LOC:12 COM:0 MVG:0@?@d@
+CCCC_Member@anonymous@solve@@()@
+CCCC_MemExt@anonymous@solve@@()@blade.cpp@54@definition@F????@LOC:12 COM:0 MVG:2@?@d@
+CCCC_RejExt@blade.cpp@18@pi = acos @?????@LOC:1 COM:0 MVG:0@?@r@
+CCCC_RejExt@blade.cpp@1@<file scope items>@F????@LOC:9 COM:2 MVG:0@?@r@
